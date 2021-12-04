@@ -1,0 +1,46 @@
+.FirstPage{
+    display: flex;
+    background: #EEE2DC;
+    height: 93vh;
+    background-image: url("../../Assets/cover.jpg");
+    /* position: relative; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.FirstPage__title, .FirstPage__title > h1, .FirstPage__title > p{
+    /* background: #EEE2DC; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: #123C69;
+    background-color: #EEE2DC;
+}
+.FirstPage__title{
+    margin: auto;
+    border-radius: 15px;
+    padding: 2rem;
+    background-color: #EEE2DC;
+    width: 50%;
+    text-align: center;
+    height: 50%;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.firstPage__subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem !important;
+    font-weight: 400;
+    color: #123C69;
+    /* margin: auto; */
+    text-align: center;
+    font-weight: 400 !important;
+}

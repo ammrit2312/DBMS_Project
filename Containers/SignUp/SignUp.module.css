@@ -1,0 +1,10 @@
+.signup__title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.SignUp{
+    height: 93vh;
+    margin: auto;
+    width: 45%;
+    padding-top: 15vh;
+}

@@ -1,0 +1,18 @@
+.details__content{
+    margin-left: 2rem;
+}
+.details__header{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.details__content{
+    border-radius: 15px;
+    box-shadow: rgba(69, 70, 71, 0.2) 0px 8px 24px;
+    padding: 2rem;
+    width: 43vw;
+    background: #eee2dc;
+}
+.details__content h1, .details__content p, .details__content h2, .details__content a{
+    background: #eee2dc;
+}
